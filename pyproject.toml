@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "coinkube"
+version = "1.0.0"
+description = "Library with common files for the CoinKube project"
+authors = ["Andreas Kring"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
